@@ -22,7 +22,23 @@
         <th>제목</th>
         <th>글쓴이</th>
     </tr>
-
+    <% rows.forEach((item, idx) => { %>
+        <tr>
+            <td><%=idx%></td>
+            <td>제목</td>
+            <td>글쓴이</td>
+            <td>조회수</td>
+            <td>수정일</td>
+            <td>번호</td>
+            <td>제목</td>
+            <td>글쓴이</td>
+            <td>조회수</td>
+            <td>수정일</td>
+            <td>번호</td>
+            <td>제목</td>
+            <td>글쓴이</td>
+        </tr>
+    <%});%>
 </table>
 </body>
 </html>

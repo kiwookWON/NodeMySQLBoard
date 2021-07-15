@@ -4,8 +4,8 @@ var mysql = require('mysql');
 
 
 var connection = mysql.createConnection({
-    host: "intermd-t-rds.cwh0ikkrvw81.ap-northeast-2.rds.amazonaws.com",
-    port: 3306,          // DB와 연결할 포트번호
+    host: "127.0.0.1",
+    port: 3307,          // DB와 연결할 포트번호
     user: 'VDT10T',        // 계정이름
     password: 'v-dt10T!!',    // 계정 비밀번호
     database: 'VDT10T'    // 데이터베이스 이름
